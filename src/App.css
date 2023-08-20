@@ -1,4 +1,49 @@
 *{
   margin: 0%;
   padding: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+nav{
+  background-color: rgb(53, 20, 184);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container{
+  background: darkolivegreen;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, button{
+  padding: 15px;
+  border: white solid black;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.container > h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+  color: white;
 }

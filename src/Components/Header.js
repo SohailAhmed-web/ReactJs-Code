@@ -1,10 +1,10 @@
 import React from "react"; 
-import "./Header.css"
+
 
 const Header = () => {
 
 
-  return <nav>Header</nav>
+  return <nav>Get Ready To Complete Your Daily Goals</nav>
 }
 
 export default Header

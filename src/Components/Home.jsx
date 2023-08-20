@@ -1,22 +1,16 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 const Home = () => {
-  
-  const [inputValue, setInputValue] = useState(0);
-  console.log(inputValue);
-
   return (
-    <div>
-      <input style={{ padding: 20, border: "1px solid rgba(0,0,0,0,4)" }}
-        type="number"
-        placeholder="Enter something"
-        value={inputValue}
-       onChange={(e) => {
-        setInputValue(e.target.value)
-       }}
-       />
+    <div className="container">
+      <h1>DAILY GOALS</h1>
+      <form>
+        <input type="text" placeholder="Title" />
+        <textarea placeholder="Description"></textarea>
+        <button type="submit">ADD</button>
+      </form>
     </div>
-  )
-}
+  );
+};
 
 export default Home
